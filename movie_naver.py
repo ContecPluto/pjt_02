@@ -39,7 +39,7 @@ with open('movie.csv', 'r', newline='', encoding='utf-8') as f:
         response = requests.get(adress, headers=HEADERS).json()
         result[read.get('영화명(국문)')] = dict(
             movieCd = read.get('영화 대표코드'),
-
+            link = response.get('items')[0].get('link') if response.get('items')[0].get('link') else '',
             userRating = response.get('items')[0].get('userRating'),
             image = response.get('items')[0].get('image') if response.get('items')[0].get('image') else ''
         )

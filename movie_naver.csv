@@ -1,7 +1,7 @@
-영진위 영화 대표코드,하이퍼텍스트 link,영화 썸네일 이미지의 URL,유저 평점
+movieCd,link,image,userRating
 20196309,https://movie.naver.com/movie/bi/mi/basic.nhn?code=173123,https://ssl.pstatic.net/imgmovie/mdi/mit110/1731/173123_P06_135928.jpg,8.37
 20183867,https://movie.naver.com/movie/bi/mi/basic.nhn?code=163788,https://ssl.pstatic.net/imgmovie/mdi/mit110/1637/163788_P18_105943.jpg,9.43
-20184047,https://movie.naver.com/movie/bi/mi/basic.nhn?code=101966,https://ssl.pstatic.net/imgmovie/mdi/mit110/1019/101966_P09_114632.jpg,9.09
+20184047,https://movie.naver.com/movie/bi/mi/basic.nhn?code=101966,https://ssl.pstatic.net/imgmovie/mdi/mit110/1019/101966_P09_114632.jpg,9.08
 20185353,https://movie.naver.com/movie/bi/mi/basic.nhn?code=180209,https://ssl.pstatic.net/imgmovie/mdi/mit110/1802/180209_P42_134851.jpg,5.90
 20183782,https://movie.naver.com/movie/bi/mi/basic.nhn?code=161967,https://ssl.pstatic.net/imgmovie/mdi/mit110/1619/161967_P80_151640.jpg,8.50
 20185986,https://movie.naver.com/movie/bi/mi/basic.nhn?code=174834,https://ssl.pstatic.net/imgmovie/mdi/mit110/1748/174834_P53_105510.jpg,7.37
