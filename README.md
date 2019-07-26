@@ -1,3 +1,8 @@
+---
+
+typora-copy-images-to: Readme_image
+---
+
 # Project_02_-_파이썬 데이터 수집 2
 
 ## 1.프로젝트 설명
@@ -10,7 +15,7 @@
 
 movie.csv의 정보중 `영화명(국문)` `영화 대표코드` 를 저장하고 `영화명(국문)` 을 통해 네이버를 통해 추가적인 정보인  `하이퍼텍스트 link`, `영화 썸네일 이미지의 URL`,` 유저 평점 ` 의 세가지의 추가적인 정보를 movie_naver.csv에 저장하였습니다.
 
-
+![movie_naver](C:\Users\student\Desktop\Python\PJT\pjt_02\Readme_image\movie_naver.PNG)
 
 ### 2.2 시행착오
 
@@ -84,6 +89,8 @@ dictionary.get('Key')
 
 ​	앞서 네이버 영화 검색 API를 통해 얻은 이미지 URL에 요청을 보내 영화코드의 이름으로 이미지 파일로 저장합니다.
 
+![movie_image](C:\Users\student\Desktop\Python\PJT\pjt_02\Readme_image\movie_image.PNG)
+
 
 
 ### 3.2 시행착오
@@ -101,3 +108,6 @@ with open(f'images/README.jpg','wb') as f:
   ```
 
 위의 코드를 이용해 URL에 요청을 보내 `images`의 폴더에 `README.jpg` 의 파일을 저장하는것이 이 프로젝트의 핵심이었습니다. 
+
+
+
