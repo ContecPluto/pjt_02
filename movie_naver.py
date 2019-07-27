@@ -8,29 +8,8 @@ from decouple import config
 CLIENT_ID = config('NAVER_CLIENT_ID')
 CLIENT_SECRET = config('NAVER_CLIENT_SECRET')
 HEADERS = {'X-Naver-Client-Id':CLIENT_ID, 'X-Naver-Client-Secret': CLIENT_SECRET}
-movie_dict = {}
 url = 'https://openapi.naver.com/v1/search/movie.json'
 result = {}
-
-
-# with open('movie.csv', 'r', newline='', encoding='utf-8') as f:
-#     reader = csv.reader(f)
-#     boxoffice_result = list(reader)
-#     for movie_result in boxoffice_result:
-#         movie_dict.update({movie_result[0] : movie_result[1]})
-# movie_dict.pop('영화 대표코드')
-
-
-# for movieCd, movieNm in movie_dict.items():
-#     adress = f'{url}?query={movieNm}'
-#     response = requests.get(adress, headers=HEADERS).json()
-#     result[movieNm] = dict(
-#         movieCd = movieCd,
-#         link = response.get('items')[0].get('link'),
-#         userRating = response.get('items')[0].get('userRating'),
-#         image = response.get('items')[0].get('image')
-#     )
-
 
 with open('movie.csv', 'r', newline='', encoding='utf-8') as f:
     reader = csv.DictReader(f)
